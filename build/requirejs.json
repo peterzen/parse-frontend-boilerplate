@@ -1,0 +1,36 @@
+{
+  "paths": {
+    "jquery": "<%= path %>bower_components/jquery/dist/jquery",
+    "twitter-bootstrap": "<%= path %>bower_components/bootstrap/dist/js/bootstrap",
+    "underscore": "<%= path %>bower_components/underscore/underscore",
+    "backbone": "<%= path %>bower_components/backbone/backbone",
+    "backbone.marionette": "<%= path %>bower_components/backbone.marionette/lib/core/backbone.marionette",
+    "backbone.modal": "<%= path %>bower_components/backbone-modal/backbone.modal",
+    "backbone.marionette.modals": "<%= path %>bower_components/backbone-modal/backbone.marionette.modals",
+    "backbone.babysitter": "<%= path %>bower_components/backbone.babysitter/lib/backbone.babysitter",
+    "backbone.wreqr": "<%= path %>bower_components/backbone.wreqr/lib/backbone.wreqr",
+    "text": "<%= path %>bower_components/requirejs-text/text",
+    "handlebars": "<%= path %>bower_components/handlebars/handlebars",
+    "when": "<%= path %>bower_components/when",
+    "Lumberman": "<%= path %>bower_components/lumberman/src",
+    "parse-js-sdk": "<%= path %>bower_components/parse-js-sdk/lib/parse",
+    "snackbarjs": "<%= path %>bower_components/snackbarjs/src/snackbar",
+    "moment": "<%= path %>bower_components/momentjs/moment"
+
+  },
+  "shim": {
+    "handlebars": {
+      "exports": "Handlebars"
+    },
+    "twitter-bootstrap": {
+      "deps": ["jquery"]
+    },
+    "parse-js-sdk": {
+      "deps": [
+        "jquery",
+        "underscore"
+      ],
+      "exports": "Parse"
+    }
+  }
+}

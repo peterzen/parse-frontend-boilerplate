@@ -1,0 +1,6 @@
+node_modules/
+frontend/bower_components/
+frontend/index.html
+test/unit/test-main.js
+frontend/static_files/css
+backend/ParseCloud/public

@@ -1,0 +1,17 @@
+{
+  "paths": {
+    "staticFiles": "static_files"
+  },
+  "parse": {
+    "appId": "PARSE_APP_ID",
+    "javascriptKey": "PARSE_JAVASCRIPT_KEY"
+  },
+  "facebookUtils": {
+    "appId": "FB_APP_ID",
+    "jsUrl": "//connect.facebook.net/en_US/sdk/debug.js"
+  },
+  "google": {
+    "clientId": "GOOGLE_CLIENT_ID"
+  },
+  "pushState": false
+}

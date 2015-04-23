@@ -1,0 +1,7 @@
+{
+  "name": "parse-frontend-boilerplate",
+  "description": "",
+  "repository": "https://github.com/peterzen/parse-frontend-boilerplate",
+  "logo": "",
+  "keywords": ["node", "express", "static"]
+}
